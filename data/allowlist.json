@@ -1,0 +1,12 @@
+[
+  {
+    "value": "192.168.10.5",
+    "type": "ipv4",
+    "reason": "Synthetic internal test asset"
+  },
+  {
+    "value": "trusted-example.test",
+    "type": "domain",
+    "reason": "Synthetic approved business domain"
+  }
+]

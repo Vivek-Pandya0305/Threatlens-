@@ -1,0 +1,21 @@
+indicator,type,source,category,first_seen,expires_at,source_confidence,evidence
+198.51.100.10,ipv4,Synthetic Threat Feed A,credential-phishing infrastructure,2026-11-12T10:00:00Z,2026-12-12T10:00:00Z,82,synthetic report: phishing landing-page infrastructure
+198.51.100.10,ipv4,Synthetic Threat Feed B,credential-phishing infrastructure,2026-11-13T08:30:00Z,2026-12-13T08:30:00Z,78,synthetic corroborating report
+203.0.113.44,ipv4,Synthetic Threat Feed A,suspicious scanning,2026-11-14T12:00:00Z,2026-12-14T12:00:00Z,61,synthetic scan observation
+192.0.2.77,ipv4,Synthetic Threat Feed C,unknown,2026-11-15T09:00:00Z,2026-12-15T09:00:00Z,25,single low-confidence synthetic observation
+192.168.10.5,ipv4,Internal Asset Inventory,internal test host,2026-11-15T09:00:00Z,2027-11-15T09:00:00Z,5,synthetic internal asset; allowlisted
+phishing-example.test,domain,Synthetic Threat Feed A,phishing,2026-11-10T11:00:00Z,2026-12-10T11:00:00Z,91,synthetic phishing-domain report
+cdn-update-example.test,domain,Synthetic Threat Feed B,suspicious hosting,2026-11-14T14:00:00Z,2026-12-14T14:00:00Z,58,synthetic hosting observation
+unknown-example.test,domain,Synthetic Threat Feed C,unknown,2026-11-15T15:00:00Z,2026-12-15T15:00:00Z,18,single unverified synthetic observation
+trusted-example.test,domain,Internal Allowlist,approved business domain,2026-11-01T00:00:00Z,2027-11-01T00:00:00Z,0,synthetic approved domain
+http://login-phish.example.test/account,url,Synthetic Threat Feed A,credential phishing,2026-11-12T10:30:00Z,2026-12-12T10:30:00Z,88,synthetic URL report
+https://updates-example.test/download,url,Synthetic Threat Feed B,suspicious download,2026-11-13T13:00:00Z,2026-12-13T13:00:00Z,66,synthetic URL observation
+https://docs.example.test/help,url,Synthetic Threat Feed C,unknown,2026-11-15T16:00:00Z,2026-12-15T16:00:00Z,12,synthetic unverified URL
+44d88612fea8a8f36de82e1278abb02f,md5,Synthetic Malware Feed,test malware sample,2026-11-09T07:00:00Z,2026-12-09T07:00:00Z,74,well-known test hash used here as a demonstration indicator; not a verdict
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,sha256,Synthetic Malware Feed,unknown file,2026-11-15T07:00:00Z,2026-12-15T07:00:00Z,22,synthetic placeholder hash
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,sha256,Synthetic Malware Feed,unknown file,2026-11-15T08:00:00Z,2026-12-15T08:00:00Z,15,synthetic placeholder hash
+198.51.100.200,ipv4,Synthetic Threat Feed D,command-and-control pattern,2026-11-11T08:00:00Z,2026-12-11T08:00:00Z,86,synthetic C2-like behavior report
+203.0.113.200,ipv4,Synthetic Threat Feed D,expired test indicator,2026-09-01T08:00:00Z,2026-10-01T08:00:00Z,80,synthetic expired example
+old-phish.example.test,domain,Synthetic Threat Feed A,expired phishing report,2026-08-01T08:00:00Z,2026-09-01T08:00:00Z,90,synthetic expired example
+198.51.100.88,ipv4,Synthetic Threat Feed C,suspicious connection,2026-11-15T18:00:00Z,2026-12-15T18:00:00Z,42,single-source synthetic observation
+203.0.113.88,ipv4,Synthetic Threat Feed B,malware delivery,2026-11-14T18:00:00Z,2026-12-14T18:00:00Z,72,synthetic malware-delivery report

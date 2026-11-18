@@ -1,0 +1,110 @@
+{
+  "type": "bundle",
+  "id": "bundle--00000000-0000-4000-8000-000000000001",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000001",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 1",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[ipv4-addr:value = '198.51.100.10']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 82
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000002",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 2",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[ipv4-addr:value = '198.51.100.10']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 78
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000003",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 3",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[ipv4-addr:value = '203.0.113.44']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 61
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000004",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 4",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[ipv4-addr:value = '192.0.2.77']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 25
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000005",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 5",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[ipv4-addr:value = '192.168.10.5']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000006",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 6",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[domain-name:value = 'phishing-example.test']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 91
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000007",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 7",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[domain-name:value = 'cdn-update-example.test']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 58
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00000000-0000-4000-8000-000000000008",
+      "created": "2026-11-16T00:00:00.000Z",
+      "modified": "2026-11-16T00:00:00.000Z",
+      "name": "Synthetic indicator 8",
+      "description": "Synthetic training indicator. Not a real-world threat verdict.",
+      "pattern": "[domain-name:value = 'unknown-example.test']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-16T00:00:00.000Z",
+      "confidence": 18
+    }
+  ]
+}

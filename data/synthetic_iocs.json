@@ -1,0 +1,202 @@
+[
+  {
+    "indicator": "198.51.100.10",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed A",
+    "category": "credential-phishing infrastructure",
+    "first_seen": "2026-11-12T10:00:00Z",
+    "expires_at": "2026-12-12T10:00:00Z",
+    "source_confidence": 82,
+    "evidence": "synthetic report: phishing landing-page infrastructure"
+  },
+  {
+    "indicator": "198.51.100.10",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed B",
+    "category": "credential-phishing infrastructure",
+    "first_seen": "2026-11-13T08:30:00Z",
+    "expires_at": "2026-12-13T08:30:00Z",
+    "source_confidence": 78,
+    "evidence": "synthetic corroborating report"
+  },
+  {
+    "indicator": "203.0.113.44",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed A",
+    "category": "suspicious scanning",
+    "first_seen": "2026-11-14T12:00:00Z",
+    "expires_at": "2026-12-14T12:00:00Z",
+    "source_confidence": 61,
+    "evidence": "synthetic scan observation"
+  },
+  {
+    "indicator": "192.0.2.77",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed C",
+    "category": "unknown",
+    "first_seen": "2026-11-15T09:00:00Z",
+    "expires_at": "2026-12-15T09:00:00Z",
+    "source_confidence": 25,
+    "evidence": "single low-confidence synthetic observation"
+  },
+  {
+    "indicator": "192.168.10.5",
+    "type": "ipv4",
+    "source": "Internal Asset Inventory",
+    "category": "internal test host",
+    "first_seen": "2026-11-15T09:00:00Z",
+    "expires_at": "2027-11-15T09:00:00Z",
+    "source_confidence": 5,
+    "evidence": "synthetic internal asset; allowlisted"
+  },
+  {
+    "indicator": "phishing-example.test",
+    "type": "domain",
+    "source": "Synthetic Threat Feed A",
+    "category": "phishing",
+    "first_seen": "2026-11-10T11:00:00Z",
+    "expires_at": "2026-12-10T11:00:00Z",
+    "source_confidence": 91,
+    "evidence": "synthetic phishing-domain report"
+  },
+  {
+    "indicator": "cdn-update-example.test",
+    "type": "domain",
+    "source": "Synthetic Threat Feed B",
+    "category": "suspicious hosting",
+    "first_seen": "2026-11-14T14:00:00Z",
+    "expires_at": "2026-12-14T14:00:00Z",
+    "source_confidence": 58,
+    "evidence": "synthetic hosting observation"
+  },
+  {
+    "indicator": "unknown-example.test",
+    "type": "domain",
+    "source": "Synthetic Threat Feed C",
+    "category": "unknown",
+    "first_seen": "2026-11-15T15:00:00Z",
+    "expires_at": "2026-12-15T15:00:00Z",
+    "source_confidence": 18,
+    "evidence": "single unverified synthetic observation"
+  },
+  {
+    "indicator": "trusted-example.test",
+    "type": "domain",
+    "source": "Internal Allowlist",
+    "category": "approved business domain",
+    "first_seen": "2026-11-01T00:00:00Z",
+    "expires_at": "2027-11-01T00:00:00Z",
+    "source_confidence": 0,
+    "evidence": "synthetic approved domain"
+  },
+  {
+    "indicator": "http://login-phish.example.test/account",
+    "type": "url",
+    "source": "Synthetic Threat Feed A",
+    "category": "credential phishing",
+    "first_seen": "2026-11-12T10:30:00Z",
+    "expires_at": "2026-12-12T10:30:00Z",
+    "source_confidence": 88,
+    "evidence": "synthetic URL report"
+  },
+  {
+    "indicator": "https://updates-example.test/download",
+    "type": "url",
+    "source": "Synthetic Threat Feed B",
+    "category": "suspicious download",
+    "first_seen": "2026-11-13T13:00:00Z",
+    "expires_at": "2026-12-13T13:00:00Z",
+    "source_confidence": 66,
+    "evidence": "synthetic URL observation"
+  },
+  {
+    "indicator": "https://docs.example.test/help",
+    "type": "url",
+    "source": "Synthetic Threat Feed C",
+    "category": "unknown",
+    "first_seen": "2026-11-15T16:00:00Z",
+    "expires_at": "2026-12-15T16:00:00Z",
+    "source_confidence": 12,
+    "evidence": "synthetic unverified URL"
+  },
+  {
+    "indicator": "44d88612fea8a8f36de82e1278abb02f",
+    "type": "md5",
+    "source": "Synthetic Malware Feed",
+    "category": "test malware sample",
+    "first_seen": "2026-11-09T07:00:00Z",
+    "expires_at": "2026-12-09T07:00:00Z",
+    "source_confidence": 74,
+    "evidence": "well-known test hash used here as a demonstration indicator; not a verdict"
+  },
+  {
+    "indicator": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "type": "sha256",
+    "source": "Synthetic Malware Feed",
+    "category": "unknown file",
+    "first_seen": "2026-11-15T07:00:00Z",
+    "expires_at": "2026-12-15T07:00:00Z",
+    "source_confidence": 22,
+    "evidence": "synthetic placeholder hash"
+  },
+  {
+    "indicator": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "type": "sha256",
+    "source": "Synthetic Malware Feed",
+    "category": "unknown file",
+    "first_seen": "2026-11-15T08:00:00Z",
+    "expires_at": "2026-12-15T08:00:00Z",
+    "source_confidence": 15,
+    "evidence": "synthetic placeholder hash"
+  },
+  {
+    "indicator": "198.51.100.200",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed D",
+    "category": "command-and-control pattern",
+    "first_seen": "2026-11-11T08:00:00Z",
+    "expires_at": "2026-12-11T08:00:00Z",
+    "source_confidence": 86,
+    "evidence": "synthetic C2-like behavior report"
+  },
+  {
+    "indicator": "203.0.113.200",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed D",
+    "category": "expired test indicator",
+    "first_seen": "2026-09-01T08:00:00Z",
+    "expires_at": "2026-10-01T08:00:00Z",
+    "source_confidence": 80,
+    "evidence": "synthetic expired example"
+  },
+  {
+    "indicator": "old-phish.example.test",
+    "type": "domain",
+    "source": "Synthetic Threat Feed A",
+    "category": "expired phishing report",
+    "first_seen": "2026-08-01T08:00:00Z",
+    "expires_at": "2026-09-01T08:00:00Z",
+    "source_confidence": 90,
+    "evidence": "synthetic expired example"
+  },
+  {
+    "indicator": "198.51.100.88",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed C",
+    "category": "suspicious connection",
+    "first_seen": "2026-11-15T18:00:00Z",
+    "expires_at": "2026-12-15T18:00:00Z",
+    "source_confidence": 42,
+    "evidence": "single-source synthetic observation"
+  },
+  {
+    "indicator": "203.0.113.88",
+    "type": "ipv4",
+    "source": "Synthetic Threat Feed B",
+    "category": "malware delivery",
+    "first_seen": "2026-11-14T18:00:00Z",
+    "expires_at": "2026-12-14T18:00:00Z",
+    "source_confidence": 72,
+    "evidence": "synthetic malware-delivery report"
+  }
+]
